@@ -189,6 +189,7 @@ hr{
     /*navbar responsividade*/
 
     .navbar{
+        overflow-x: hidden;
         padding-top: 50px;
         padding-bottom: 50px;    
     }
@@ -207,6 +208,7 @@ hr{
     /*Banner responsividade*/
 
     .banner-conteiner{
+        overflow-x: hidden;
         width: 100%;
         padding: 0px;
         position: relative;
@@ -254,6 +256,7 @@ hr{
     /*habilidades responsividade*/
 
     .habilidades-conteiner{
+        overflow-x: hidden;
         flex-wrap: wrap;
         display: flex;
         text-align: center;
@@ -288,6 +291,7 @@ hr{
     }
 
     .bem-vindo{
+        overflow-x: hidden;
         visibility: hidden;
     }
     
