@@ -26,6 +26,32 @@ hr{
     justify-content: center;
 }
 
+.scrollup{
+    padding: 20px;
+    z-index: 11;
+    position: fixed;
+}
+
+.scrollup a{
+    margin: 20px;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 10;
+    position: fixed;
+    background-color: rgb(255, 70, 70);
+    border-radius: 50px;
+    transition: 0.1s;
+}
+
+.scrollup a:hover{
+    background-color: rgb(207, 60, 60);
+    transition: 0.1s;
+}
+
+.scrollup a img{
+    width: 30px;
+}
 
 /*navbar*/
 
@@ -34,7 +60,7 @@ hr{
     width: 100%;
     background-color: rgb(43, 35, 46);
     text-align: center;
-    position: fixed;
+    position: relative;
     color: rgb(255, 255, 255);
 }
 
