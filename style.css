@@ -286,6 +286,10 @@ hr{
         padding-top: 10px;
         font-size: 15px;
     }
+
+    .bem-vindo{
+        visibility: hidden;
+    }
     
 }
 
