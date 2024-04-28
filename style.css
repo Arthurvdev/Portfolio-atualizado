@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body{
+    background-color: rgb(43, 35, 46);
+    overflow-x: hidden;
+}
+
+hr{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-color: rgb(255, 70, 70);
+}
+
+.bem-vindo{
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*navbar*/
+
+.navbar{
+    z-index: 10;
+    width: 100%;
+    background-color: rgb(43, 35, 46);
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-conteiner {
+    list-style: none;
+}
+
+.navbar-conteiner ul{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+    transition: 0.2s;
+}
+
+.navbar-conteiner ul:hover{
+    background-color: rgb(255, 70, 70);
+    border-radius: 50px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+.navbar-conteiner ul li{
+    font-size: 18px;
+}
+
+.navbar-conteiner ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.inicio{
+    background-color: rgb(255, 70, 70);
+    border-radius: 50px;
+}
+
+
+
+/*banner*/
+
+.banner-conteiner{
+    padding: 100px;
+    position: relative;
+    padding-bottom: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.banner-conteiner div svg{
+    position: absolute;
+    width: 300px;
+    right: 0;
+}
+
+
+.banner-conteiner div h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    font-size: 80px;
+    
+}
+.banner-conteiner div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white;
+    font-size: 50px;
+    
+}
+
+.banner-conteiner div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: rgb(131, 118, 136);
+    font-size: 13px;
+    padding-bottom: 40px;
+    margin: 10px;
+    
+}
+
+.banner-conteiner a{
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: rgb(255, 70, 70) ;
+    font-size: 18px;
+    border: none;
+    padding: 15px 80px 15px 80px;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 10px;
+}
+
+.banner-conteiner a:hover{
+    background-color: rgb(209, 56, 56) ;
+    transition: 0.2s;
+    letter-spacing: 4px;
+}
+
+/*habilidades*/
+
+.habilidades-conteiner{
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.habilidades-conteiner div{
+    width: 180px; 
+    height: 180px;
+    background-color: rgb(43, 35, 46);
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 3px 55px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 55px -21px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 55px -21px rgba(0,0,0,0.75);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.habilidades-conteiner div img{
+    
+    width: 50px;
+}
+
+.habilidades-conteiner div h1{
+    padding: 10px;
+    font-size: 20px;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.habilidades-conteiner div p{
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.habilidades-titulo{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+@media screen and (max-width: 768px) {
+
+    /*navbar responsividade*/
+
+    .navbar{
+        padding-top: 50px;
+        padding-bottom: 50px;    
+    }
+     
+    .navbar-conteiner ul{
+        margin: 5px;
+        padding: 5px;
+        width: 30%;
+    }
+     
+    .navbar-conteiner ul li{
+        font-size: 14px;  
+    }
+    
+
+    /*Banner responsividade*/
+
+    .banner-conteiner{
+        width: 100%;
+        padding: 0px;
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+    }
+    
+     
+    .banner-conteiner div h1{
+        font-size: 20px;
+        
+    }
+    .banner-conteiner div h2{
+        font-size: 15px;
+        
+    }
+    
+    .banner-conteiner div p{
+        font-size: 10px;
+        padding-bottom: 40px;
+        margin: 10px;
+        
+    }
+    
+    .banner-conteiner a{
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        background-color: rgb(255, 70, 70) ;
+        font-size: 12px;
+        padding: 12px 40px 12px 40px;
+        color: white;
+        display: flex ;
+        justify-content: center;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+
+    /*habilidades responsividade*/
+
+    .habilidades-conteiner{
+        flex-wrap: wrap;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+        
+    }
+
+    .habilidades-conteiner div{
+        width: 120px; 
+        height: 120px;
+        margin: 10px;
+        padding: 20px;
+        
+    }
+
+    .habilidades-conteiner div img{
+        width: 20px;
+    }
+
+    .habilidades-conteiner div h1{
+        padding: 10px;
+        font-size: 10px;
+
+    }
+
+    .habilidades-titulo{
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    
+}
+
+
