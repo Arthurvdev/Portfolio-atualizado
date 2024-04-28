@@ -5,6 +5,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(43, 35, 46);
     overflow-x: hidden;
@@ -30,7 +34,7 @@ hr{
     width: 100%;
     background-color: rgb(43, 35, 46);
     text-align: center;
-    position: relative;
+    position: fixed;
     color: rgb(255, 255, 255);
 }
 

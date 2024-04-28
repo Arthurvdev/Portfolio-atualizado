@@ -23,24 +23,30 @@
     <div class="navbar" data-aos="fade-down">
         <div class="navbar-conteiner">
             <ul class="inicio">
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#inicio">Inicio</a></li>
             </ul>
 
             <ul>
-                <li><a href="">Habilidades</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
             </ul>
 
             <ul>
-                <li><a href="">Projetos</a></li>
+                <li><a id="habilidades" href="#">Habilidades</a></li>
             </ul>
 
             <ul>
-                <li><a href="">Links</a></li>
+                <li><a href="#">Projetos</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Links</a></li>
             </ul>
         </div>
     </div>
 
     <!--BANNER CONTEINER-->
+
+    <section id="inicio"></section>
 
     <div class="banner-conteiner" data-aos="fade-up" >
         <div data-aos="fade-down"> 
@@ -56,11 +62,12 @@
     </div>
 
     
-
+    <section id="sobremim"></section>
     <hr>
 
     <!--SOBRE MIM-->
 
+    
     <div class="sobremim-conteiner" data-aos="fade-up">
         <h1>Sobre mim</h1>
         <div>
@@ -95,7 +102,7 @@
         </div>
     </div>
 
-    <hr>
+    <hr id="habilidades-hr">
 
     <!--HABILIDADES-->
 
@@ -172,12 +179,13 @@
     <!--PROJETOS-->
 
    
-
+    <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    
 </body>
 
-<script src="script.js"></script>
+
 </html>
