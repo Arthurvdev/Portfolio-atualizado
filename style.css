@@ -290,8 +290,12 @@ hr{
         font-size: 15px;
     }
 
-    .bem-vindo{
+    .bem-vindo-conteiner{
         overflow-x: hidden;
+    }
+
+    .bem-vindo{
+        
         visibility: hidden;
     }
     
