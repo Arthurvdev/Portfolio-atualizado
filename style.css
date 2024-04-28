@@ -334,6 +334,44 @@ hr{
         
         visibility: hidden;
     }
+
+    /*Sobre mim responsividade*/
+
+    .sobremim-conteiner{
+        padding: 10px;
+    }
+
+    .sobremim-conteiner h1{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        color: rgb(255, 255, 255) ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    .sobremim-conteiner h2{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 15px;
+    }
+
+    .sobremim-conteiner p{
+        padding-top: 5px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 12px;
+    }
+
+    .sobremim-conteiner div{
+        padding: 50px;
+        
+    }
+
+    .sobremim-conteiner img{
+        width: 50px;
+        filter: brightness(0) invert(1) grayscale(1);
+    }
+
     
 }
 
