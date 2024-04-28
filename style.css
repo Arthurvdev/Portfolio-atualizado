@@ -298,17 +298,16 @@ hr{
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding: 20px;
-        margin: 20px;
+        padding: 10px;
+        margin: 10px;
         
     }
 
     .habilidades-conteiner div{
-        width: 120px; 
-        height: 120px;
-        margin: 10px;
-        padding: 20px;
-        
+        width: 80px; 
+        height: 80px;
+        margin: 5px;
+        padding: 30px;   
     }
 
     .habilidades-conteiner div img{
@@ -316,7 +315,7 @@ hr{
     }
 
     .habilidades-conteiner div h1{
-        padding: 10px;
+        padding: 5px;
         font-size: 10px;
 
     }
@@ -339,26 +338,21 @@ hr{
 
     .sobremim-conteiner{
         padding: 10px;
+        padding-bottom: 80px;
     }
 
     .sobremim-conteiner h1{
         padding-top: 25px;
         padding-bottom: 25px;
         text-align: center;
-        color: rgb(255, 255, 255) ;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
     }
 
-    .sobremim-conteiner h2{
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    .sobremim-conteiner h2{ 
         font-size: 15px;
     }
 
     .sobremim-conteiner p{
         padding-top: 5px;
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
         font-size: 12px;
     }
 
