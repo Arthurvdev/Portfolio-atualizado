@@ -88,6 +88,7 @@ hr{
 }
 
 .navbar-conteiner ul li a{
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -250,6 +251,74 @@ hr{
     filter: brightness(0) invert(1) grayscale(1);
 }
 
+/*Projetos*/
+
+.projetos-titulo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.projetos-conteiner{
+    display: flex;
+    padding: 20PX;  
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projetos-conteiner div{
+    width: 300px;
+}
+
+.projetos-conteiner a{
+    margin: 10px;
+    background-color: rgb(51, 43, 53);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.projetos-conteiner a:hover{
+    background-color: rgb(255, 70, 70);
+    transition: 0.2s;
+}
+
+.projetos-conteiner a:hover p{
+    color: white;
+    transition: 0.2s;
+}
+
+.projetos-conteiner a:hover h1{
+    color: white;
+}
+
+.projetos-conteiner h1{
+    padding: 10px;
+    color: rgb(255, 70, 70);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 25px;
+}
+
+.projetos-conteiner p{
+    padding: 10px;
+    color: white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+.projetos-conteiner img{
+    padding: 20px;
+    width: 260px;
+    height: 180px;
+    border-radius: 0px;
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
     /*navbar responsividade*/
@@ -396,6 +465,37 @@ hr{
         filter: brightness(0) invert(1) grayscale(1);
     }
 
+    /*Projetos responsividade*/
+
+    .projetos-titulo{
+        font-size: 16px;
+    }
+    
+    .projetos-conteiner{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .projetos-conteiner div{
+        width: 100%;
+        margin: 0;
+    }
+
+    .projetos-conteiner h1{
+        font-size: 18px;
+    }
+    
+    .projetos-conteiner p{
+        font-size: 12px;
+    }
+    
+    .projetos-conteiner img{
+        padding: 10px;
+        width: 180px;
+        height: 160px;
+    }
     
 }
 
